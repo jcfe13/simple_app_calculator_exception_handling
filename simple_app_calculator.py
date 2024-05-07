@@ -52,6 +52,7 @@ def calculator():
             elif operation_choice == 4:
                 result = divide_numbers(first_num, second_num)
                 operation = "\033[95mDivision\033[0m"
+                
             # 7. Ensure accurate handling of decimals
             if result.is_integer():
                 result = int(result)
