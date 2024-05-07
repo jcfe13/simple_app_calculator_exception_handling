@@ -66,6 +66,7 @@ def calculator():
         except ZeroDivisionError:
             print("\n\033[91mZeroDivisionError: Division by zero is not a valid operation. 033[0m")
         except Exception as exception:
+            print("\n\033[91mAn error occurred. Please try again.", exception, "\033[0m")
         # 9. Inquire if they want to do more math
         # 10. If they're finished, say "Thank you!" and end
 # 11. Call the main function to run the calculator
