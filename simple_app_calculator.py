@@ -17,8 +17,9 @@ def calculator():
         if second_number == 0:
             raise ZeroDivisionError()
         return first_number / second_number
-    
+
     # 3. Making the main loop and display the operations
+    while True:
 # 4. Get the user's choice
 # 5. Get the numbers
 # 6. Perform the operation
