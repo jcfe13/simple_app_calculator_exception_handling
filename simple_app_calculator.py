@@ -6,6 +6,7 @@ def calculator():
             if first_number.is_integer() and second_number.is_integer() \
             else first_number + second_number
     def subtract_numbers(first_number, second_number):
+        return first_number - second_number
 # 3. Making the main loop and display the operations
 # 4. Get the user's choice
 # 5. Get the numbers
