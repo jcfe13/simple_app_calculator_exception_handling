@@ -78,6 +78,7 @@ def calculator():
                 if repeat_calculation not in ['y', 'n']:
                     raise ValueError("\n\033[91mValueError: Invalid input. Please enter 'y' for Yes or 'n' for No.\033[0m")
                 break
+                
             except ValueError as exception:
                 print(exception)
         # 10. If they're finished, say "Thank you!" and end
