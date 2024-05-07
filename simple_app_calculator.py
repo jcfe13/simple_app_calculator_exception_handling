@@ -73,5 +73,7 @@ def calculator():
 
         # 9. Inquire if they want to do more math
         while True:
+            try:
+                repeat_calculation = input("\n\033[93mDo you want to perform another calculation? ('y' for Yes / 'n' for No): ").strip().lower()
         # 10. If they're finished, say "Thank you!" and end
 # 11. Call the main function to run the calculator
