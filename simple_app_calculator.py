@@ -52,7 +52,7 @@ def calculator():
             elif operation_choice == 4:
                 result = divide_numbers(first_num, second_num)
                 operation = "\033[95mDivision\033[0m"
-                
+
             # 7. Ensure accurate handling of decimals
             if result.is_integer():
                 result = int(result)
@@ -60,6 +60,7 @@ def calculator():
                 result = round(result, 2)
 
         # 8. Display the result and the exception
+            print(f"\n\033[95mThe result for the {operation} \033[95mis: \033[94m{result}\033[95m\033[0m")
         # 9. Inquire if they want to do more math
         # 10. If they're finished, say "Thank you!" and end
 # 11. Call the main function to run the calculator
