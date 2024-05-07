@@ -30,6 +30,8 @@ def calculator():
             while True:
                 try:
                     operation_choice = int(input("Enter the number of the operation you want to perform (1-4): "))
+                    if operation_choice not in [1, 2, 3, 4]:
+                        raise ValueError
 # 5. Get the numbers
 # 6. Perform the operation
 # 7. Ensure proper handling of any mistakes
