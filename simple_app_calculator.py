@@ -51,7 +51,7 @@ def calculator():
             elif operation_choice == 3:
                 result = multiply_numbers(first_num, second_num)
                 operation = "\033[95mMultiplication\033[0m"
-            elif operation_choice = 4:
+            elif operation_choice == 4:
                 result = divide_numbers(first_num, second_num)
                 operation = "\033[95mDivision\033[0m"
 
