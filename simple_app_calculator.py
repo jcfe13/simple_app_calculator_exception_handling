@@ -72,5 +72,6 @@ def calculator():
             print("\n\033[91mAn error occurred. Please try again.", exception, "\033[0m")
 
         # 9. Inquire if they want to do more math
+        while True:
         # 10. If they're finished, say "Thank you!" and end
 # 11. Call the main function to run the calculator
