@@ -84,4 +84,5 @@ def calculator():
         # 10. If they're finished, say "Thank you!" and end
         if repeat_calculation != 'y':
             print("\n\033[95mThank You for using this Simple App Calculator.")
+            break
 # 11. Call the main function to run the calculator
