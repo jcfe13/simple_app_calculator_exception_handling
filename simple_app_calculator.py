@@ -3,9 +3,7 @@ def calculator():
 
     # 2. Define the addition, subtraction, multiplication, division function
     def add_numbers(first_number, second_number):
-        return int(first_number + second_number) \
-            if first_number.is_integer() and second_number.is_integer() \
-            else first_number + second_number
+        return int(first_number + second_number)
 
     def subtract_numbers(first_number, second_number):
         return first_number - second_number
