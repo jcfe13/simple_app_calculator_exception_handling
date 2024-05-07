@@ -54,6 +54,7 @@ def calculator():
             elif operation_choice = 4:
                 result = divide_numbers(first_num, second_num)
                 operation = "\033[95mDivision\033[0m"
+                
             # 7. Ensure proper handling of any mistakes
         # 8. Display the result and the exception
         # 9. Inquire if they want to do more math
