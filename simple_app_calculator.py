@@ -2,6 +2,7 @@
 def calculator():
 # 2. Define the addition, subtraction, multiplication, division function
     def add_numbers(first_number, second_number):
+        return int(first_number + second_number) \
 # 3. Making the main loop and display the operations
 # 4. Get the user's choice
 # 5. Get the numbers
