@@ -56,6 +56,7 @@ def calculator():
                 operation = "\033[95mDivision\033[0m"
             # 7. Ensure proper handling of any mistakes
             if result.is_integer():
+                result = int(result
         # 8. Display the result and the exception
         # 9. Inquire if they want to do more math
         # 10. If they're finished, say "Thank you!" and end
