@@ -48,6 +48,7 @@ def calculator():
             elif operation_choice == 2:
                 result = subtract_numbers(first_num, second_num
                 operation = "\033[95mSubtraction\033[0m"
+            elif operation_choice == 3:
             # 7. Ensure proper handling of any mistakes
         # 8. Display the result and the exception
         # 9. Inquire if they want to do more math
