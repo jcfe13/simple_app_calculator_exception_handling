@@ -26,6 +26,7 @@ def calculator():
             print("2. Subtraction (-)")
             print("3. Multiplication (*)")
             print("4. Division (/)\033[0m")
+            
 # 4. Get the user's choice
             while True:
 # 5. Get the numbers
