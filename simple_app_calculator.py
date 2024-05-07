@@ -17,7 +17,7 @@ def calculator():
         if second_number == 0:
             raise ZeroDivisionError()
         return first_number / second_number
-    
+
     # 3. Making the main loop and display the operations
     while True:
         try:
@@ -27,6 +27,7 @@ def calculator():
             print("3. Multiplication (*)")
             print("4. Division (/)\033[0m")
 # 4. Get the user's choice
+            while True:
 # 5. Get the numbers
 # 6. Perform the operation
 # 7. Ensure proper handling of any mistakes
