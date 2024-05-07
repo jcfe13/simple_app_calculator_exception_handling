@@ -42,6 +42,7 @@ def calculator():
             second_num = float(input("\033[93mPlease enter your second number: "))
 
             # 6. Perform the operation
+            if operation_choice == 1:
             # 7. Ensure proper handling of any mistakes
         # 8. Display the result and the exception
         # 9. Inquire if they want to do more math
