@@ -51,7 +51,7 @@ def calculator():
             elif operation_choice == 3:
                 result = multiply_numbers(first_num, second_num)
                 operation = "\033[95mMultiplication\033[0m"
-            elif operation_choice =
+            elif operation_choice = 4:
             # 7. Ensure proper handling of any mistakes
         # 8. Display the result and the exception
         # 9. Inquire if they want to do more math
