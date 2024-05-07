@@ -87,3 +87,4 @@ def calculator():
             break
             
 # 11. Call the main function to run the calculator
+calculator()
