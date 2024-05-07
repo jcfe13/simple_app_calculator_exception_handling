@@ -38,6 +38,7 @@ def calculator():
                     print("\n\033[91mValueError: You have entered an invalid character, number, or choice. Please enter a number between 1-4.\033[0m\n")
 
             # 5. Get the numbers
+            first_num = float(input("\n\033[93mPlease Enter The First Number: "))
 # 6. Perform the operation
 # 7. Ensure proper handling of any mistakes
 # 8. Display the result and the exception
