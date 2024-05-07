@@ -62,7 +62,7 @@ def calculator():
         # 8. Display the result and the exception
             print(f"\n\033[95mThe result for the {operation} \033[95mis: \033[94m{result}\033[95m\033[0m")
         except ValueError as e:
-            rint("\n\033[91mValueError:", e, "\033[0m"
+            print("\n\033[91mValueError:", e, "\033[0m")
         # 9. Inquire if they want to do more math
         # 10. If they're finished, say "Thank you!" and end
 # 11. Call the main function to run the calculator
