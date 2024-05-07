@@ -39,7 +39,7 @@ def calculator():
 
             # 5. Get the numbers
             first_num = float(input("\n\033[93mPlease enter your first number: "))
-            second_num = float(input("\033[93mPlease Enter the Second Number: "))
+            second_num = float(input("\033[93mPlease enter your second number: "))
 # 6. Perform the operation
 # 7. Ensure proper handling of any mistakes
 # 8. Display the result and the exception
