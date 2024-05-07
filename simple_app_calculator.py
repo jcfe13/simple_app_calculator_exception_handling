@@ -28,6 +28,8 @@ def calculator():
 
             # 4. Get the user's choice
             while True:
+                try:
+                    operation_choice = int(input("Enter the number of the operation you want to perform (1-4): "))
 # 5. Get the numbers
 # 6. Perform the operation
 # 7. Ensure proper handling of any mistakes
