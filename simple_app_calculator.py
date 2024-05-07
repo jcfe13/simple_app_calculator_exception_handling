@@ -26,7 +26,7 @@ def calculator():
             print("2. Subtraction (-)")
             print("3. Multiplication (*)")
             print("4. Division (/)\033[0m")
-        # 4. Get the user's choice
+            # 4. Get the user's choice
             while True:
                 try:
                     operation_choice = int(input("Enter the number of the operation you want to perform (1-4): "))
