@@ -1,4 +1,5 @@
 # 1. Define the calculator function
+def calculator():
 # 2. Define the addition, subtraction, multiplication, division function
 # 3. Making the main loop and display the operations
 # 4. Get the user's choice
